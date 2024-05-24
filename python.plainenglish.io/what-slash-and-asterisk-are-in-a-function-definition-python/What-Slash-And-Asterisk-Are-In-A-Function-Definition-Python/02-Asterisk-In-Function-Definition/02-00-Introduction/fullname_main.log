@@ -1,0 +1,2 @@
+2024-05-24 11:34:25.1716530665 | root | DEBUG | Fullname of 'Jane'='Jane' 'Doe'='Doe' is fullname.fullname('Doe', 'Jane')="first_name='Doe' last_name='Jane'"
+2024-05-24 11:34:25.1716530665 | root | DEBUG | Sum of 'Jane'='Jane' and 'Doe'='Doe' is fullname.fullname(first_name='Jane',last_name='Doe')="first_name='Jane' last_name='Doe'"

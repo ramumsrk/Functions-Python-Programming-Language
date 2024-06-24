@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Running Python source using /usr/bin/python3.12 and enter interactive mode",
+      "label": "Run Python source using /usr/bin/python3.12 and enter interactive mode",
       "type": "shell",
       "command": "/usr/bin/python3.12",
       "args": [
@@ -15,6 +15,23 @@
         "kind": "build",
         "isDefault": false,
       }
-    }
+    },
+    {
+      "label": "Run test-functions using /usr/local/bin/pytest",
+      "type": "shell",
+      "command": "/usr/local/bin/pytest",
+      "args": [
+        "--verbose",
+        "--verbose",
+        "--verbose",
+        "--verbosity=10",
+        "--rootdir=${workspace}",
+        "${file}",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false,
+      }
+    }    
   ]
 }
